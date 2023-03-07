@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+       
+      background: darkcyan;
+      
+    }
+    #tetris2{
+        width: 100px;
+        height: 100px;
+    }
+    #tetris{
+       width:  600px;
+       height: 600px;
+    }
+    #Tet2{
+        margin-left: 20px;
+    }
+    #Tet{
+        
+        display: flex;
+         flex-direction: column;
+         flex-direction: row;
+        background:black;
+        width: 600px;
+        height:600px;
+       
+        zoom: 1.5; 
+    }
+    h2,h1{
+        color:antiquewhite;
+        display: inline
+    }
+</style>
+</head>
+<body>
+    <div id = "Tet">
+       
+    
+    <div id="Tet2">
+        <h2> Pieza Sostenida</h2>
+        <canvas id="tetris2" width="120" height="120" style="border: 1px solid blue "></canvas>
+        <br><br>
+        <h2>Nivel</h2>
+        <h2 id="niv">1</h2>
+        <h2>Líneas</h2>
+        <h2 id="lin">0</h2>
+        
+    </div>    
+    <canvas id="tetris" width="200" height="400" style="border: 1px solid grey "></canvas>
+    
+    <div id="Tet2">
+    <h2>Siguiente</h2>
+    <br>
+    <br>
+    <br>
+    <canvas id="tetris3" width="80" height="60" style="border: 1px solid blue "></canvas>
+     <br>
+    <canvas id="tetris4" width="80" height="60" style="border: 1px solid blue "></canvas>
+    <br>
+    <canvas id="tetris5" width="80" height="60" style="border: 1px solid blue "></canvas>
+</div>
+</div>
+    <script src="ris.js"></script>
+</body>
+</html>
